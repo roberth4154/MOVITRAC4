@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".favoritos">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="795dp"
+        android:text="FAVORITOS"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <View
+
+        android:layout_width="374dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="619dp"
+        android:background="#DDDDDD" />
+
+    <View
+
+        android:layout_width="374dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="461dp"
+        android:background="#DDDDDD" />
+
+    <View
+
+        android:layout_width="374dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="301dp"
+        android:background="#DDDDDD" />
+
+    <View
+
+        android:layout_width="374dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="131dp"
+        android:background="#DDDDDD" />
+
+    <TextView
+
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="730dp"
+        android:text="RUTA 8 PARKE - CENTRO"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="568dp"
+        android:text="RUTA 15 CENTRO - LAGUNA"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="412dp"
+        android:text="RUTA 8 EXITO - CENTRO DE SALUD"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="244dp"
+        android:text="RUTA 5 MIRAMONTES"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="728dp"
+        android:text="18/10/2024"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="570dp"
+        android:text="18/10/2024"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="243dp"
+        android:text="18/10/2024"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="411dp"
+        android:text="18/10/2024"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="307dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="535dp"
+        android:text="1 HORA"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="382dp"
+        android:text="EN PARADERO"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="221dp"
+        android:text="25 MINUTOS"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="694dp"
+        android:text="10 MINUTOS"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="695dp"
+        android:text="TIEMPO DE ESPERA"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="534dp"
+        android:text="TIEMPO DE ESPERA"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="220dp"
+        android:text="TIEMPO DE ESPERA"
+        android:textColor="#000000" />
+
+    <TextView
+
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="385dp"
+        android:text="TIEMPO DE ESPERA"
+        android:textColor="#000000" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="628dp"
+        android:backgroundTint="#021CF8"
+        android:text="AÑADIR A FAVORITOS" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="475dp"
+        android:backgroundTint="#1C3C9B"
+        android:text="EN FAVORITOS"
+        android:textColor="#FFFFFF" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#1C3C9A"
+        android:text="EN FAVORITOS"
+        android:textColor="#FFFFFF" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="310dp"
+        android:backgroundTint="#1C3C9A"
+        android:text="EN FAVORITOS"
+        android:textColor="#FFFFFF" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="628dp"
+        android:backgroundTint="#1C3C9C"
+        android:text="EN FAVORITOS"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

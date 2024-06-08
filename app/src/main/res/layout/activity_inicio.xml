@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".inicio">
+
+    <Button
+        android:id="@+id/btnrut"
+        android:layout_width="323dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="477dp"
+        android:backgroundTint="#7C2B2B"
+        android:text="RUTAS DEL DIA"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#812121"
+        android:textColorHint="#681919"
+        android:textColorLink="#781C1C"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="662dp"
+        android:text="BIENVENIDOS"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <Button
+
+        android:id="@+id/btnmapa"
+        android:layout_width="203dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="323dp"
+        android:backgroundTint="#7C2B2B"
+        android:text="MAPA DE RUTAS EN TIEMPO REAL"
+        android:textAlignment="gravity"
+        android:textColor="#FBFBFB"
+        android:textColorHighlight="#812121"
+        android:textColorHint="#681919"
+        android:textColorLink="#781C1C"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/btnFAVORITOS"
+        android:layout_width="151dp"
+        android:layout_height="92dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="354dp"
+        android:backgroundTint="#FFD603"
+        android:text="FAVORITOS"
+        android:textColor="#771B1B"
+        android:textColorHighlight="#812121"
+        android:textColorHint="#681919"
+        android:textColorLink="#781C1C"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/btnpreguntas"
+        android:layout_width="331dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="#7C2B2B"
+        android:text="PREGUNTAS FRECUENTES"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#812121"
+        android:textColorHint="#681919"
+        android:textColorLink="#781C1C"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+</RelativeLayout>
